@@ -1312,4 +1312,4 @@ contract MasterChef is Ownable, ReentrancyGuard {
     function updateStartBlock(uint256 _startBlock) public onlyOwner {
         startBlock = _startBlock;
     }
-}}
+}
